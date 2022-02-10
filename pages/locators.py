@@ -7,3 +7,10 @@ class MainPageLocators():
 class LoginPageLocators():
     LOGIN_FORM = (By.CSS_SELECTOR, "#login_form")
     REGISTER_FORM = (By.CSS_SELECTOR, "register_form")
+
+class ProductPageLocators():
+    ADD_TO_BASKET_BUTTON = (By.XPATH, '//button[@class="btn btn-lg btn-primary btn-add-to-basket"]')
+    BOOK_TITLE = (By.XPATH, '//div[@class="row"]/div/h1')
+    TITLE_IN_FIRST_MESSAGE = (By.XPATH, '//div[@class="alertinner "]/strong')
+    PRICE_IN_BOOK_DETAILS = (By.XPATH, '//p[@class="price_color"]')
+    PRICE_IN_MESSAGE = (By.XPATH, '//div[@class="alertinner "]/p/strong')
